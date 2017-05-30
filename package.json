@@ -14,7 +14,7 @@
   "scripts": {
     "start": "npm run css && node server.js",
     "css": "postcss -u autoprefixer -r css/*",
-    "postinstall": "npm run start"
+    "postinstall": "npm  start"
   },
   "license": "MIT",
   "devDependencies": {
